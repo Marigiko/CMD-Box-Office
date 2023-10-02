@@ -41,8 +41,8 @@ Si deseas contribuir a este proyecto, sigue estos pasos:
 4. Sube tus cambios a tu fork: `git push origin tu-rama`.
 5. Abre un pull request en este repositorio.
 
-## KeyzDev
-- Tu Nombre
+## Autor
+- KeyzDev
 
 ## Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
