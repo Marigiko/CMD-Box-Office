@@ -33,7 +33,7 @@ public class App
         Logger log = log("Mensaje");
 
         ArrayList<String> informacion = new ArrayList<>();
-        log.info("Bienvenido a Cinecode, ¿que pelicula desea ver? ");
+        log.info("Bienvenido a Cinecode, ¿que pelicula desea ver? (Por favor ingrese el nombre de la pelicula que desea ver)");
 
         Scanner scan = new Scanner(System.in);
         
@@ -48,15 +48,16 @@ public class App
                 String eleccion = scan.next().toLowerCase();
                 sala.setNroSala(randomNum(10));
 
-                log.info("Estos son las fechas disponibles para esa pelicula: ");
+                log.info("Estos son las fechas disponibles para esa pelicula: (Por favor ingrese el numero de acuerdo al orden de la fecha que desea, por ejemplo: 2)");
                 log.info(cartelera.filtroFecha(eleccion));
                 log.info("Seleccione la fecha a la que desea asistir: ");
 
                 int eleccionInt = scan.nextInt();
                 ArrayList<Object> horariosDisponibles = cartelera.hrDisponible(eleccion, (LocalDate) cartelera.filtroFecha(eleccion).get(eleccionInt - 1));
 
+                log.info("(Por favor ingrese el numero de acuerdo al orden del horario que desea, por ejemplo: 1)");
                 log.info(horariosDisponibles);
-                log.info("Seleccione el horario al que desea asistir");
+                log.info("Seleccione el horario al que desea asistir: ");
 
                 int eleccionInt2 = scan.nextInt();
                 Object horario = cartelera.hrDisponible(eleccion, (LocalDate) cartelera.filtroFecha(eleccion).get(eleccionInt - 1)).get(eleccionInt2 - 1);
@@ -69,7 +70,7 @@ public class App
 
                 int cantidad = scan.nextInt();
 
-                log.info("Ingrese si es mayor de edad: ");
+                log.info("Ingrese si es mayor de edad: (Por favor ingrese 'true' o 'false')");
 
                 boolean mayor = scan.nextBoolean();
                 Boletos ticket = new Boletos(cantidad, randomNum(100), mayor, dateFunction);
@@ -83,7 +84,7 @@ public class App
 
                 sala.setNroAsientosOcupados(cantidad);
 
-                log.info("¿Desea realizar otra compra?");
+                log.info("¿Desea realizar otra compra? (Por favor ingrese 'true' o 'false')");
 
                 continuar = scan.nextBoolean();
             } catch (Exception e) {
