@@ -12,7 +12,7 @@ import org.apache.log4j.Logger;
 
 
 @SuppressWarnings("ALL")
-public class App
+public class CineApp
 {
     public static int randomNum(int num) {
         return (int) Math.round(Math.random() * (num + 1));
