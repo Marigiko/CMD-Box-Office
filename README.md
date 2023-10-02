@@ -13,11 +13,12 @@ CMD-Boleteria es una aplicación Java que simula un sistema de reserva de boleto
 ## Demostración
 A continuación, se muestra una demostración de cómo funciona CMD-Boleteria:
 
-![gif1](ruta/a/tu/gif1.gif)
-_(Inserta aquí una descripción del gif 1)_
+![Demostración de video](https://ruta/a/tu/video.mp4)
 
-![gif2](ruta/a/tu/gif2.gif)
-_(Inserta aquí una descripción del gif 2)_
+<video width="320" height="240" controls>
+    <source src="https://ruta/a/tu/video.mp4" type="video/mp4">
+    Tu navegador no admite la reproducción de videos HTML5.
+</video>
 
 ## Instrucciones de Uso
 1. Clona el repositorio en tu máquina local.
