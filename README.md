@@ -13,10 +13,10 @@ CMD-Boleteria es una aplicación Java que simula un sistema de reserva de boleto
 ## Demostración
 A continuación, se muestra una demostración de cómo funciona CMD-Boleteria:
 
-![Demostración de video](https://ruta/a/tu/video.mp4)
+![Demostración de video](resources/CMD-Boleteria.mp4)
 
 <video width="320" height="240" controls>
-    <source src="https://ruta/a/tu/video.mp4" type="video/mp4">
+    <source src="resources/CMD-Boleteria.mp4" type="video/mp4">
     Tu navegador no admite la reproducción de videos HTML5.
 </video>
 
@@ -28,7 +28,8 @@ A continuación, se muestra una demostración de cómo funciona CMD-Boleteria:
 5. Sigue las instrucciones en la consola para seleccionar películas, fechas, horarios y comprar boletos.
 
 ## Estructura del Proyecto
-- `src/main/java/cine/` contiene las clases y paquetes relacionados con la lógica de la aplicación.
+- `src/main/java/clases/` contiene las clases relacionados con la lógica de la aplicación.
+- `src/main/java/interfaces/` contiene las interfaces relacionados con la aplicación.
 - `src/main/java/org/example/` contiene la clase principal `CineApp`.
 
 ## Requisitos
@@ -43,7 +44,7 @@ Si deseas contribuir a este proyecto, sigue estos pasos:
 4. Sube tus cambios a tu fork: `git push origin tu-rama`.
 5. Abre un pull request en este repositorio.
 
-## Autor
+## KeyzDev
 - Tu Nombre
 
 ## Licencia
