@@ -13,9 +13,9 @@ CMD-Box Office is a Java application that simulates a movie ticket reservation s
 ## Demo
 Below is a demonstration of how CMD-Box Office works:
 
-![Example Animated GIF](resources/CMD-BoxOffice.gif)
+![Example Animated GIF](resources/CMD-Boleteria.gif)
 
-[Watch the MP4 video](resources/CMD-BoxOffice.mp4)
+[Watch the MP4 video](resources/CMD-Boleteria.mp4)
 
 ## Usage Instructions
 1. Clone the repository to your local machine.
