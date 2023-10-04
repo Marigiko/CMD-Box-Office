@@ -1,48 +1,48 @@
-# CMD-Boleteria - Sistema de Reserva de Boletos de Cine
+# CMD-Box Office - Movie Ticket Reservation System
 
-## Descripción
-CMD-Boleteria es una aplicación Java que simula un sistema de reserva de boletos de cine. Permite a los usuarios seleccionar películas, fechas y horarios disponibles, comprar boletos y generar un ticket de compra. Este proyecto muestra cómo se pueden utilizar clases, interfaces y paquetes para crear una aplicación de cine simple.
+## Description
+CMD-Box Office is a Java application that simulates a movie ticket reservation system. It allows users to select movies, view available dates and showtimes, purchase tickets, and generate a purchase ticket. This project demonstrates how classes, interfaces, and packages can be used to create a simple movie application.
 
-## Funcionalidades
-- Selección de películas disponibles.
-- Visualización de fechas y horarios de funciones.
-- Compra de boletos.
-- Generación de tickets de compra.
-- Registro de asientos ocupados en la sala.
+## Features
+- Selection of available movies.
+- Display of movie dates and showtimes.
+- Ticket purchasing.
+- Generation of purchase tickets.
+- Recording of occupied seats in the theater.
 
-## Demostración
-A continuación, se muestra una demostración de cómo funciona CMD-Boleteria:
+## Demo
+Below is a demonstration of how CMD-Box Office works:
 
-![Ejemplo de GIF animado](resources/CMD-Boleteria.gif)
+![Example Animated GIF](resources/CMD-BoxOffice.gif)
 
-[Ver el video en MP4](resources/CMD-Boleteria.mp4)
+[Watch the MP4 video](resources/CMD-BoxOffice.mp4)
 
-## Instrucciones de Uso
-1. Clona el repositorio en tu máquina local.
-2. Abre el proyecto en tu IDE de Java favorito.
-3. Utiliza Maven para compilar y gestionar las dependencias del proyecto. Ejecuta `mvn clean install` en la raíz del proyecto para compilar y construir el proyecto.
-4. Ejecuta la clase `CineApp.java` para iniciar la aplicación.
-5. Sigue las instrucciones en la consola para seleccionar películas, fechas, horarios y comprar boletos.
+## Usage Instructions
+1. Clone the repository to your local machine.
+2. Open the project in your favorite Java IDE.
+3. Use Maven to compile and manage project dependencies. Run `mvn clean install` at the root of the project to compile and build the project.
+4. Execute the `CineApp.java` class to start the application.
+5. Follow the instructions in the console to select movies, dates, showtimes, and purchase tickets.
 
-## Estructura del Proyecto
-- `src/main/java/clases/` contiene las clases relacionados con la lógica de la aplicación.
-- `src/main/java/interfaces/` contiene las interfaces relacionados con la aplicación.
-- `src/main/java/org/example/` contiene la clase principal `CineApp`.
+## Project Structure
+- `src/main/java/clases/` contains the classes related to the application's logic.
+- `src/main/java/interfaces/` contains the interfaces related to the application.
+- `src/main/java/org/example/` contains the main class `CineApp`.
 
-## Requisitos
-- Java 8 o superior.
-- Maven instalado y configurado.
+## Requirements
+- Java 8 or higher.
+- Maven installed and configured.
 
-## Contribución
-Si deseas contribuir a este proyecto, sigue estos pasos:
-1. Haz un fork del repositorio.
-2. Crea una rama para tus cambios: `git checkout -b tu-rama`.
-3. Realiza tus cambios y commitea: `git commit -m "Descripción de tus cambios"`.
-4. Sube tus cambios a tu fork: `git push origin tu-rama`.
-5. Abre un pull request en este repositorio.
+## Contribution
+If you would like to contribute to this project, follow these steps:
+1. Fork the repository.
+2. Create a branch for your changes: `git checkout -b your-branch`.
+3. Make your changes and commit: `git commit -m "Description of your changes"`.
+4. Push your changes to your fork: `git push origin your-branch`.
+5. Open a pull request in this repository.
 
-## Autor
+## Author
 - KeyzDev
 
-## Licencia
-Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
